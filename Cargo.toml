@@ -1,0 +1,20 @@
+[package]
+name = "gpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "22.1.0"
+winit = "0.30.5" # cross-platform window creation library
+log = "0.4.22"
+env_logger = "0.11.5"
+# pollster = "0.3.0"
+# cgmath = "0.18.0" # math for computer graphics
+# image = "0.25.2"
+
+
+# futures = "0.3.31"
+# gfx-hal = "0.9.0" # graphics hardware abstraction layer
+# bytemuck = { version: "1.18.0", features = ["derive"] }
+# anyhow = "1.0.89"
+# rand = "0.8.5"
